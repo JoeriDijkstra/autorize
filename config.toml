@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://autorize.dev/'
 languageCode = 'en-us'
 title = 'Autorize'
 theme = 'terminal'
@@ -17,8 +17,8 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Autorize"
+    subtitle = "Empowering Innovation with AI-Driven Solutions"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -31,10 +31,10 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"  
-      [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/"
